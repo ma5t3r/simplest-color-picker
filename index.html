@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.png" />
+    <title>Simplest Color Picker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="http://prismjs.com/themes/prism.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplest-color-picker.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/simplest-color-picker.js"></script>
+    <script src="http://prismjs.com/prism.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <br />
+    <br />
+    <img class="img-responsive" src="title.png" width="600"/>
+    <br />
+    <br />
+
+    <div class="row">
+        <div class="col-md-4">
+            <div id="test"></div>
+            <br /><br /><br />
+            <div id="test2"></div>
+        </div>
+
+        <div class="col-md-4">
+            <pre><code class="language-html">&lt;div id="test">&lt;/div></code></pre>
+
+            <pre>
+                <code class="language-javascript">
+$(document).ready(function(){
+    $('#test').simplestColorPicker({
+    colors : [
+        '#000000',
+        '#151515',
+        '#1C1C1C',
+        '#2E2E2E',
+        '#424242',
+        '#585858',
+        '#6E6E6E',
+        '#848484',
+        '#A4A4A4',
+        '#BDBDBD',
+        '#D8D8D8',
+        '#E6E6E6',
+        '#FFFFFF'
+    ],
+    active : '#424242',
+    inputClass : 'form-control input-sm',
+    showInput : false,
+    inputName : 'hexColor',
+    animation: true
+});
+            </code>
+            </pre>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script>
+    $(document).ready(function(){
+        $('#test').simplestColorPicker({
+            colors : [
+                '#000000',
+                '#151515',
+                '#1C1C1C',
+                '#2E2E2E',
+                '#424242',
+                '#585858',
+                '#6E6E6E',
+                '#848484',
+                '#A4A4A4',
+                '#BDBDBD',
+                '#D8D8D8',
+                '#E6E6E6',
+                '#FFFFFF'
+            ],
+            active : '#424242',
+            inputClass : ''
+        });
+
+        $('#test2').simplestColorPicker({
+            active      : '#ffff00',
+            showInput : false,
+            inputName : 'hexColor',
+            animation: true
+        });
+
+
+
+
+    });
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
