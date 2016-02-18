@@ -45,10 +45,17 @@
                 $(liObj).bind('click', {tst: "#myli"+pre_id+i}, function(e){
                     _inactive();
                     _active(this);
+                    event.type = 'changed';
+                    $(liObj).trigger(couleur, event);
                 });
                 ulObj.append(liObj);
             }
         });
+
+        function changed (color, e) {
+            return color;
+        }
+
 
         function _inactive() {
             for (var i = 0; i < base.options.colors.length; ++i) {

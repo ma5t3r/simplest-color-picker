@@ -53,9 +53,9 @@ $(document).ready(function(){
         '#E6E6E6',
         '#FFFFFF'
     ],
-    active : '#424242',
-    inputClass : 'form-control input-sm',
-    showInput : false,
+    active : '#424242', //< ?= $hexaColorFromDatabase ?>
+    inputClass : 'form-control input-sm', //Bootstrap
+    showInput : true,
     inputName : 'hexColor',
     animation: true
 });
@@ -129,6 +129,8 @@ div.simple-colors li.active {
             showInput : false,
             inputName : 'hexColor',
             animation: true
+        }).changed(function(e,f) {
+            alert ('lkjlkjlk');
         });
 
 
