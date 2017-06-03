@@ -1,6 +1,6 @@
 Demo
 ----
-http://qortex.fr/simplest-color-picker/
+http://6temic.fr/simplest-color-picker/
 
 Installation
 ------------
