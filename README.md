@@ -10,7 +10,7 @@ Installation
 Based On
 --------
 * jQuery
-* Thanks to <a href="https://github.com/PrismJS/prism"> PrismJS</a> to present code on demo page
+* Thanks to <a href="https://github.com/PrismJS/prism"> PrismJS</a> for code presentation on demo page
 
 License
 -------
