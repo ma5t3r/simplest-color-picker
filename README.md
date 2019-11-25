@@ -1,6 +1,6 @@
 Demo
 ----
-http://6temic.fr/simplest-color-picker/
+https://6temic.fr/simplest-color-picker/
 
 Installation
 ------------
